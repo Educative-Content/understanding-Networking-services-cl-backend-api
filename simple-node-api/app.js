@@ -1,5 +1,14 @@
 const express = require('express');
+const cors=require('cors');
 const app = express();
+
+  const corsOptions = {
+  origin: '*', //to allow forntend and backend on same computer
+  credentials: true, //access-control-allow-credentials:true
+  optionSuccessStatus: 200,
+};
+app.use(cors())
+
 
 // Sample data - a list of books
 let books = [
@@ -14,7 +23,7 @@ app.get('/api/books', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
