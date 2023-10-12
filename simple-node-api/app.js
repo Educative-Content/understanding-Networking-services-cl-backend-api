@@ -11,10 +11,22 @@ app.use(cors())
 
 
 // Sample data - a list of books
-let books = [
-  { id: 1, title: 'Book 1', author: 'Author 1' },
-  { id: 2, title: 'Book 2', author: 'Author 2' },
-  { id: 3, title: 'Book 3', author: 'Author 3' }
+let courses = [
+  {
+    id: 1,
+    title: 'Create an EKS Cluster and Deploy an Application',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/5268241073831936/image/6466459398832128'
+  },
+  {
+    id: 2,
+    title: 'Course 2',
+    imageLink: 'https://example.com/course2.jpg'
+  },
+  {
+    id: 3,
+    title: 'Course 3',
+    imageLink: 'https://example.com/course3.jpg'
+  }
 ];
 
 // Route to get all books
