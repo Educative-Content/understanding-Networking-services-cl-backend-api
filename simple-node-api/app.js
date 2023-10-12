@@ -19,13 +19,28 @@ let courses = [
   },
   {
     id: 2,
-    title: 'Course 2',
-    imageLink: 'https://example.com/course2.jpg'
+    title: 'Educative Bot with Lambda Function Fulfillment using AWS LEX',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/6744845660717056/image/6171933378609152'
   },
   {
     id: 3,
-    title: 'Course 3',
-    imageLink: 'https://example.com/course3.jpg'
+    title: 'Getting Started with Amazon ECS',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/6353463370579968/image/4767505526292480'
+  },
+    {
+    id: 4,
+    title: 'Attach an Application Load Balancer to EC2 Auto Scaling Group',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/6724412594978816/image/6326025143975936'
+  },
+  {
+    id: 5,
+    title: 'Processing Amazon S3 Events Using AWS Lambda',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/4823974122094592/image/5593867165106176'
+  },
+  {
+    id: 6,
+    title: 'Getting Started with Amazon Redshift',
+    imageLink: 'https://www.educative.io/cdn-cgi/image/format=auto,width=950,quality=75/v2api/collection/10370001/4752686122270720/image/5370330944897024'
   }
 ];
 
