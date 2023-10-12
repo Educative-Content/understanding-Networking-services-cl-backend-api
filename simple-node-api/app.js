@@ -46,7 +46,7 @@ let courses = [
 
 // Route to get all books
 app.get('/api/books', (req, res) => {
-  res.json(books);
+  res.json(courses);
 });
 
 // Start the server
